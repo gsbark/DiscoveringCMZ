@@ -1,0 +1,27 @@
+##########################
+# units : mm, N, MPa, ms, g 
+##########################
+
+MPM_config:
+  case : 2
+  type : noiseless
+  n_grid : 128
+  particles_mat1: 16443
+  particles_mat2: 18141
+  p_rho : 5.0e-3
+  dt : 2.0e-6
+  steps: 1000    
+Material:
+  E : 50000.0                      
+  n : 0.3
+Cohesive_Zone:
+  elements: 1000
+Geometry: 
+  radius: 4.0
+  length_x: 5.0
+  length_y: 5.0
+  l_edge : 7.0
+Optimization:
+  acc_every : 10
+  lr : 1.0e-3
+
