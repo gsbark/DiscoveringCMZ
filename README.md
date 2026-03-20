@@ -18,4 +18,14 @@ The following libraries are required:
 | nvidia-warp           | 1.6.0        |
 
 ## Citation
-TODO
+
+```bibtex
+@article{gavris2026discovering,
+  title={Discovering neural cohesive zone laws from displacement fields},
+  author={Gavris, Georgios Barkoulis and Sun, WaiChing},
+  journal={Computer Methods in Applied Mechanics and Engineering},
+  volume={452},
+  pages={118733},
+  year={2026},
+  publisher={Elsevier}
+}
